@@ -1,6 +1,6 @@
 import axios from 'axios';
-import FreeCurrencyApi from '@everapi/freecurrencyapi-js';
-export class FreeCurrencyApi {
+
+export class FreeCurrencyApiClient {
     constructor(apiKey) {
         this.apiKey = apiKey;
         this.baseUrl = 'https://api.freecurrencyapi.net/api/v2/';
